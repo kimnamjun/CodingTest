@@ -12,7 +12,7 @@ def solution(sales, links):
         if nodes[i]:
             d[i][0] += min(max(0, d[k][1] - d[k][0]) for k in nodes[i])
 
-        return [d[i][0], d[i][1]]
+        return d[i]
 
     nodes = defaultdict(list)
     for parent, child in links:
