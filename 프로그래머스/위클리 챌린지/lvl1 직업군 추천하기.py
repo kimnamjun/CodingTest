@@ -1,0 +1,1 @@
+solution=lambda x,y,z: sorted([[k,sum((5-i)*{l:p for l,p in zip(y,z)}[v]for i,v in enumerate(u) if v in y)]for k,u in {s.split()[0]:s.split()[1:] for s in x}.items()],key=lambda q:(-q[1],q[0]))[0][0]
