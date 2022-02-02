@@ -21,7 +21,3 @@ def solution(n, k):
         if num:
             answer += is_prime_number(int(num))
     return answer
-
-
-# print(solution(437674, 3))
-# print(solution(110011, 10))

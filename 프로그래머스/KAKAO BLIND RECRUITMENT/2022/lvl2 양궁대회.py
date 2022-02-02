@@ -33,6 +33,3 @@ def solution(n, info):
             answer = info_ryan
 
     return answer if answer_diff != 0 else [-1]
-
-
-# print(solution(5, [2,1,1,1,0,0,0,0,0,0,0]))
